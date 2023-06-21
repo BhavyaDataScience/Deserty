@@ -49,7 +49,7 @@ def main():
                 st.write("Sorry, that menu item is not available.")
 
             # Ask if the user wants to continue or exit
-            continue_chat = st.button("Continue")
+            continue_chat = st.button("Continue", disabled=st.session_state.get("disabled", True))
 
             if not continue_chat:
                 break
