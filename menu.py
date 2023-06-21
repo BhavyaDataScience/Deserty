@@ -20,7 +20,7 @@ def main():
         st.title("Welcome to Desserty")
         # Display advertisements
         st.header("Advertisements")
-        #st.image("images\coco.jpg", use_column_width=True)
+        st.image("images/coco.jpg", use_column_width=True)
         #st.image("images\heart.jpg", use_column_width=True)
         #st.image("images\stick.jpg", use_column_width=True)
 
