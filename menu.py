@@ -21,8 +21,8 @@ def main():
         # Display advertisements
         st.header("Advertisements")
         st.image("images/coco.jpg", use_column_width=True)
-        #st.image("images\heart.jpg", use_column_width=True)
-        #st.image("images\stick.jpg", use_column_width=True)
+        st.image("images/heart.jpg", use_column_width=True)
+        st.image("images/stick.jpg", use_column_width=True)
 
     elif choice == "Menu":
         st.write("Welcome to our waffles menu chatbot. How can I assist you today?")
